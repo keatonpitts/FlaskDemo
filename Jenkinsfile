@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		VERSION = '3.0.3'
+		VERSION = '3.0.4'
 		DOCKERHUB_CREDENTIALS = credentials('docker-kpitts-credentials')
 	}
 	stages {
