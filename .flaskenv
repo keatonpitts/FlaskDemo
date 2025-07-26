@@ -1,2 +1,2 @@
 FLASK_APP=demo.py
-DATABASE_URL=mysql+pymysql://root:password@localhost:3306/flaskdemo
+DATABASE_URL=mysql+pymysql://root:password@mysql-svc:3306/flaskdemo
